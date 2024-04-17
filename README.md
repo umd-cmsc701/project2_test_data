@@ -1,0 +1,3 @@
+# Test input for Project 2
+We provide two different datasets on which you can test your bloom filter implementations. Each folder contains `build_output_fpr.txt`, where `fpr` is the false positive rate that the bloom filter implementation should have. The `build_output_fpr.txt` contains the output which your implementation should output to stdout when invoking `build`
+on the `input.txt`. The `truth.txt` contains the ground truth for the presence or the absence of keys for `query.txt`. The output of your query implementation will not be exactly equal to `truth.txt`, but you should not have any false negatives. Further, the observed false positive rate should not greater than `fpr`.
